@@ -64,4 +64,4 @@ app.listen(SERVER_PORT, (err) => {
   console.log(`Server run on ${serverUrl}`);
 });
 
-// 005 sign-up in heroku and make some useful configurations
+// 005 sign-up in heroku and make some useful configs
