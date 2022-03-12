@@ -55,7 +55,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // the client build folder should be served by the server as static (like images, ...)
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.get('/', (_, res) => {
+app.get('/*', (_, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
